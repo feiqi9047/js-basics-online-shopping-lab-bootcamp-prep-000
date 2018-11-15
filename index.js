@@ -36,3 +36,12 @@ function viewCart() {
     return `In your cart, you have ${cart[0]['itemName']} at $${cart[0]['itemPrice']}.`
   }
 }
+
+
+function total() {
+  var total=0;
+  for(let i=0;i<cart.length;i++) {
+    total+=cart[i]['itemPrice'];
+  }
+  return total;
+ }	
