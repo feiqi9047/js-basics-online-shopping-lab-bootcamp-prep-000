@@ -65,3 +65,4 @@ function total() {
     cart=[];
     return order
   }
+ }
