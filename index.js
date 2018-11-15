@@ -85,6 +85,6 @@ function placeOrder(cardNumber) {
 return cart;
   }
 
-placeOrder(83296759)
+placeOrder(12345678)
 
 
