@@ -35,4 +35,4 @@ function viewCart() {
   else {
     return `In your cart, you have ${cart[0]['itemName']} at $${cart[0]['itemPrice']}.`
   }
-}	}
+}
